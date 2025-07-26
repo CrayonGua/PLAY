@@ -19,7 +19,7 @@ st.markdown("哈哈哈哈哈哈")
 # st.json({"key": "value"}) # JSON 数据
 
 #媒体展示
-# st.image("photos/哈基米.jpg", caption="哈基米")  # 显示图片
+st.image("photos/哈基米.jpg", caption="哈基米")  # 显示图片
 if st.button("BACK SEAT"):
     st.text("播放时注意音量")
     st.audio("music/BACK SEAT.mp3")           # 播放音频
