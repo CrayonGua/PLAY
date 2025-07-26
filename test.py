@@ -29,7 +29,7 @@ if st.button("Baby, Don't Cry"):
 if st.button("Goodbye"):
     st.text("播放时注意音量")
     st.audio("music/Goodbye.mp3")           # 播放音频
-if st.button("秘密小视频")
+if st.button("秘密小视频"):
     st.text("播放时注意音量")
     st.video("video/piano.mp4")             #播放视频
 
