@@ -20,11 +20,18 @@ st.markdown("哈哈哈哈哈哈")
 
 #媒体展示
 # st.image("photos/哈基米.jpg", caption="哈基米")  # 显示图片
-if st.button("点击播放"):
+if st.button("BACK SEAT"):
+    st.text("播放时注意音量")
     st.audio("music/BACK SEAT.mp3")           # 播放音频
-st.audio("music/Baby, Don't Cry.mp3")           # 播放音频
-st.audio("music/Goodbye.mp3")           # 播放音频
-st.video("video/piano.mp4")             #播放视频
+if st.button("Baby, Don't Cry"):
+    st.text("播放时注意音量")
+    st.audio("music/Baby, Don't Cry.mp3")           # 播放音频
+if st.button("Goodbye"):
+    st.text("播放时注意音量")
+    st.audio("music/Goodbye.mp3")           # 播放音频
+if st.button("秘密小视频")
+    st.text("播放时注意音量")
+    st.video("video/piano.mp4")             #播放视频
 
 # #交互组件
 # if st.button("点击我"):
